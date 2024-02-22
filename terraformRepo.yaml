@@ -2,7 +2,7 @@ apiVersion: infra.contrib.fluxcd.io/v1alpha2
 kind: Terraform
 metadata:
   name: helloworld
-  namespace: flux-system
+  namespace: argocd
 spec:
   interval: 1m
   approvePlan: auto
