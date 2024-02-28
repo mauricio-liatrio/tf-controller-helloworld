@@ -1,0 +1,10 @@
+apiVersion: infra.contrib.fluxcd.io/v1alpha2
+kind: Terraform
+metadata:
+  name: my-terraform
+spec:
+  source: git@github.com:https://github.com/pabloisaacmauricio/tf-controller-helloworld.git
+  path: dev
+  syncPolicy:
+    automated:
+      prune: true
