@@ -1,7 +1,7 @@
 apiVersion: infra.contrib.fluxcd.io/v1alpha2
 kind: Terraform
 metadata:
-  name: helloworld5
+  name: helloworld6
   namespace: argocd
 spec:
   interval: 1m
